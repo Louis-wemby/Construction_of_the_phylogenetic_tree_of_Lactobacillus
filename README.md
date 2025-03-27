@@ -11,4 +11,4 @@ WHAT'S THE AIM?
 
 WHAT'S NEW IN OUR PROJECT?
   
-  Different from conventional classification criterion of Lactobacillus and relevant species(particularly Kefir strains), we try to make a breakthrough that the strains of interest can be screened by their final metabolic products, which are usually utilized to manufacture fermented foodstuffs such as yogurt, pickles, etc. By this means, we believe that it is plausible to figure out the genetic relationship between these strains so as to analyze gene functions that might reveal ultra-efficiency in fermentation.
+  Different from conventional classification criterion of Lactobacillus and relevant species (particularly Kefir strains), we try to make a breakthrough that the strains of interest can be screened by their final metabolic products, which are usually utilized to manufacture fermented foodstuffs such as yogurt, pickles, etc. By this means, we believe that it is plausible to figure out the genetic relationship between these strains so as to analyze gene functions that might reveal ultra-efficiency in fermentation.
