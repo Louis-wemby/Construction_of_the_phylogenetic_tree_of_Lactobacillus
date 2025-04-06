@@ -56,7 +56,8 @@ OUTPUT_FILE="results/merged_copy_number.tsv"
 awk '1 {print $2}' $INPUT_DIR/*.tsv | sort | uniq > gene_names.txt
 echo -e "Sample\t$(paste -sd '\t' gene_names.txt)" > $OUTPUT_FILE
 
-for file in $INPUT_DIR/*.tsv; do
+for file in $INPUT_DIR/*.tsv 
+do
     sample_name=$(basename "$file" copy_number.tsv)
     declare -A copy_number_map
     awk '{copy[$2] = $4} END {for (gene in copy) print gene, copy[gene]}' "$file" > temp_copy.txt
