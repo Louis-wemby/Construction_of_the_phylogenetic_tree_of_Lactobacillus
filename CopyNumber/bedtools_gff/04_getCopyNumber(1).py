@@ -35,12 +35,12 @@ def parse_gff_for_gene_names(gff_file):
     return id_to_name
 
 # 从GFF文件中构建映射
-id_to_name = parse_gff_for_gene_names("D:/Louis/大创＋生竞-乳酸杆菌进化树/Data/Lactiplantibacillus plantarum/Genome data/Ref_Data/DSM20174.gff")  # 替换为你的 GFF 路径
+id_to_name = parse_gff_for_gene_names("DSM20174.gff")  # 替换为你的 GFF 路径
 print(id_to_name)
 # 统计序列出现次数
 sequence_counts = defaultdict(int)
 gene_sequences = {}
-for record in SeqIO.parse("D:/Louis/大创＋生竞-乳酸杆菌进化树/Data/Lactiplantibacillus plantarum/Genome data/DSM20174.fasta", "fasta"):
+for record in SeqIO.parse("DSM20174.fasta", "fasta"):
     seq = str(record.seq).upper()
     sequence_counts[seq] += 1
     gene_sequences[record.id] = seq
