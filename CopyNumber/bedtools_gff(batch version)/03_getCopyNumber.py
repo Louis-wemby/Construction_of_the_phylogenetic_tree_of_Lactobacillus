@@ -6,7 +6,7 @@ import pandas as pd
 # ==== Parameter settings ====
 gff_dir = "/your/full/path/to/annotation_gff"
 fasta_dir = "/your/full/path/to/genome_fasta"
-output_dir = "/your/full/path/to/output_results
+output_dir = "/your/full/path/to/output_results"
 
 os.makedirs(output_dir, exist_ok=True)
 
