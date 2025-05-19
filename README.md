@@ -1,4 +1,4 @@
-# Construction-of-the-phylogenetic-tree-of-Lactobacillus
+# Construction_of_the_phylogenetic_tree_of_Lactobacillus
 NOTICE: This project is still under development. We will update latest results at intervals.
 
 ## WHO ARE WE?
