@@ -17,10 +17,12 @@ np.fill_diagonal(distance_df.values, 0)
 dm = DistanceMatrix(distance_df.values, ids=distance_df.index.tolist())
 tree_skbio = nj(dm)
 
-# Step 4: Export the tree to Newick format
+# Step 4: Export the tree to Newick format and save
 newick_io = StringIO()
 tree_skbio.write(file=newick_io)
 newick_str = newick_io.getvalue()
+with open("./NJ_tree.nwk", "w") as f:
+    f.write(newick_str)
 
 # Step 5: Read the tree with ete3
 t = Tree(newick_str)
