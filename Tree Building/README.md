@@ -9,7 +9,7 @@ ___
 
 ## ANI method
 
-A common and helpful tool [pyani](https://github.com/widdowquinn/pyani) was used to calculate ANI(Average Nucleotide Identity) distance between each strain pair, by simply calling the script `average_nucleotide_identity.py`.Output files were saved to **ANI Result**. (Note that `ani_matrix.csv` was converted from `ANI_percentage_identity.tab` using the script `Convert_to_csv.py` ). The newick file of tree was created by script `NJ_circle.py` `UPGMA_circle.py` and `UPGMA_Rectangle.py`.
+A common and helpful tool [pyani](https://github.com/widdowquinn/pyani) was used to calculate ANI (Average Nucleotide Identity) distance between each strain pair, by simply calling the script `average_nucleotide_identity.py`.Output files were saved to **ANI Result**. (Note that `ani_matrix.csv` was converted from `ANI_percentage_identity.tab` using the script `Convert_to_csv.py` ). The newick file of tree was created by script `NJ_circle.py` `UPGMA_circle.py` and `UPGMA_Rectangle.py`.
 
 ___
 
